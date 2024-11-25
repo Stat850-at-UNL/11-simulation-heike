@@ -1,0 +1,35 @@
+---
+title: "Simulation of Playing Craps"
+format: html
+---
+
+
+```{r echo=FALSE,warning=FALSE, message=FALSE}
+# Setting up:
+library(tidyverse)
+source("play-craps.R")
+```
+
+```{r}
+play_craps_one()
+```
+
+```{r}
+play_craps(n = 2)
+```
+
+# Which Bet?
+
+
+
+# Results
+
+in numbers: 
+
+```{r}
+library(ggplot2)
+
+# visual of the results
+```
+
+# Assessing simulation variability
